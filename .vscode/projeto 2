@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(){
+    int idade = 26;
+    float altura = 1.80;
+    char opcao = 'L';
+    char opcao [20] = "luis";
+
+    printf("%d", idade);
+    printf ("%f" , altura);
+    printf("%c" , opcao);
+    printf("%c" , nome);
+    /*
+    printf("%formato1 %formato 2 %formato 3", variavel 1, variavel 2, variavel 3);
+
+    %d: Imprime un inteiro no fomato decimal.
+    %i: Equivalente a %d.
+    %f: Imprime um numero do ponto flutuante no formato padrao.
+    %e: Imrime um numero flutuante na notação cientifica.
+    $s: Imprime uma cadeia (string) de caracteres.
+    *\
+} 
